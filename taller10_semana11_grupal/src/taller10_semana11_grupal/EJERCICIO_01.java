@@ -4,7 +4,9 @@ package taller10_semana11_grupal;
  */
 public class EJERCICIO_01 {
     public static void main(String[] args) {
-        String nomAbad[] = {"Juan S.", "Juan D.", "Ricardo", "Carlos", "Flor", "Jesus"};
+        String nomAbad[] = {"Juan S.", "Juan D.", "Ricardo", "Carlos", "Flor", "Jesus", "Pedro", "Lelius", "Roli", "Joaquin",
+        "Bocca", "Alejo", "Calu", "Elizabeth", "Giannina", "Rudy", "Irina", "Aldo", "Beto", "Enrique", "Paulo", "Claudia", "Barbara",
+        "Dana", "Hanna", "Ignacio", "Alejandro", "Gaete"};
         int limEst = nomAbad.length, limNotas = 3;
         double matNotas [][] = new double [limEst][limNotas];
         double arrPromedio[] = new double[limEst];
